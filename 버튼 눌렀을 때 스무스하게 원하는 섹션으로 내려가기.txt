@@ -1,3 +1,6 @@
+버튼 눌렀을 때 스무스하게 원하는 섹션으로 내려가기
+
+
 window.onload = function(){
    // 비주얼 이동 버튼 스크롤 기능
    const button = document.querySelector(".visual-bt")
@@ -16,5 +19,3 @@ window.onload = function(){
      }
    }
 } 
-
-// top 버튼 스크롤 기능
