@@ -48,4 +48,12 @@ window. addEventListener("scroll", function(scTop){
 })
 
 
+//안내창 스크립트
+const body = document.querySelector("body")
+const modal = document.querySelector(".modal-wrap")
+modal.addEventListener("click" , function(){
+  modal.style.display = "none"
+  fadeout(modal)
+})
+
 };
